@@ -1,0 +1,8 @@
+map( 'n', 'j', 'gj', nore)
+map( 'n', 'k', 'gk', nore)
+map( 'n', '0', 'g0', nore)
+map( 'n', '$', 'g$', nore)
+map( 'n', 'gj', 'j', nore)
+map( 'n', 'gk', 'k', nore)
+map( 'n', 'g0', '0', nore)
+map( 'n', 'g$', '$', nore)

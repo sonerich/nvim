@@ -13,5 +13,5 @@ bind('n', '<leader>fs', ':w<CR>', nore)
 -- window
 bind('n', '<leader>wc', ':close<CR>', nore)
 
--- open nvimtree
-bind('n', '<leader>fe', ':NvimTreeToggle<CR>', nore)
+-- toggle nvim tree
+bind('n', '<leader>fe', ':NvimTreeClose<CR>:NvimTreeOpen<CR>', nore)

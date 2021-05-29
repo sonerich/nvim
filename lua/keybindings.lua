@@ -14,6 +14,8 @@ bind('n', '<leader>fg', ':Telescope live_grep<CR>', nore)
 bind('n', '<leader>fb', ':Telescope buffers<CR>', nore)
 bind('n', '<leader>fh', ':Telescope help_tags<CR>', nore)
 bind('n', '<leader>fd', ':Telescope find_files<CR>', nore)
+-- alternative, still not sure if I prefer this over <leader>fd
+-- bind('n', '<leader>/', ':Telescope find_files<CR>', nore)
 --- NvimTree
 bind('n', '<leader>fe', ':NvimTreeToggle<CR>', nore)
 

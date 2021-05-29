@@ -64,8 +64,6 @@ return require('packer').startup(function()
 				["<C-p>"] = false,
 				["<C-j>"] = actions.move_selection_next,
 				["<C-k>"] = actions.move_selection_worse,
-
-				["<C-l>"] = ,
 			},
 			n = {}
 		}}}

@@ -30,3 +30,4 @@ o.guifont = "FiraCode Nerd Font:h17"
 o.timeoutlen = 500
 o.confirm = true
 o.lazyredraw = false
+

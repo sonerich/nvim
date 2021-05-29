@@ -50,4 +50,24 @@ return require('packer').startup(function()
 				["-"]              = tree_cb("dir_up"),
 				["q"]              = tree_cb("close"),
     		}
+	-- telescope - fuzzy finder written in lua and for neovim
+	use {
+		'nvim-telescope/telescope.nvim',
+		requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
+	}
+	local actions = require('telescope.actions')
+	require('telescope').setup{
+		defaults={mappings={
+			i = {
+				-- next/prev selection with ctrl jk
+				["<C-n>"] = false,
+				["<C-p>"] = false,
+				["<C-j>"] = actions.move_selection_next,
+				["<C-k>"] = actions.move_selection_worse,
+
+				["<C-l>"] = ,
+			},
+			n = {}
+		}}}
+
 end)
